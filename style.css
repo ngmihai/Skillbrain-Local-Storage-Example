@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+
+  zoom: 2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.patrat {
+  height: 100px;
+  width: 100px;
+
+  border: 1px solid black;
+}
+
+.rosu {
+  background-color: red;
+}
+
+.galben {
+  background-color: yellow;
+}
+
+.albastru {
+  background-color: blue;
+}
